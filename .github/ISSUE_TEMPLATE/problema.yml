@@ -1,0 +1,48 @@
+name: Problema
+description: Algo não funcionou no Afinador Nogueira.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar. Quanto mais detalhes, mais rápido dá para corrigir.
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu
+      description: O que você fez, o que esperava e o que apareceu.
+    validations:
+      required: true
+  - type: dropdown
+    id: modo
+    attributes:
+      label: Em qual modo
+      options:
+        - Corda a corda
+        - Cromático
+        - Preferências
+        - Outro
+    validations:
+      required: true
+  - type: input
+    id: instrumento
+    attributes:
+      label: Instrumento e afinação
+      placeholder: "Viola caipira, Cebolão em Ré"
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app
+      description: "Em Configurações › Apps › Afinador Nogueira, no fim da página (ex.: 2.2.0)."
+      placeholder: "2.2.0"
+    validations:
+      required: true
+  - type: input
+    id: aparelho
+    attributes:
+      label: Celular
+      description: Modelo e versão do Android.
+      placeholder: "Galaxy S23, Android 16"
+    validations:
+      required: true

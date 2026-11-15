@@ -1,0 +1,22 @@
+name: Sugestão
+description: Uma ideia para o Afinador Nogueira ficar melhor.
+title: "[Sugestão] "
+labels: ["sugestão"]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Sua ideia
+      description: O que você gostaria que o afinador fizesse e em que situação. Se for um instrumento ou afinação que falta, diga quais notas.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app
+      placeholder: "2.2.0"
+  - type: input
+    id: aparelho
+    attributes:
+      label: Celular
+      placeholder: "Galaxy S23, Android 16"
