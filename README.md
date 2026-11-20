@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagens/icone.png" width="96" alt="Ícone do Afinador Nogueira">
+  <img src="imagens/icone.png" width="112" alt="Ícone do Afinador Nogueira">
 </p>
 
 <h1 align="center">Afinador Nogueira</h1>
@@ -74,6 +74,7 @@ O app pede o microfone só para ouvir o instrumento. O som é analisado na hora,
 - **Algo não funcionou?** Abra um [Problema](../../issues/new/choose), dizendo a versão do app, o modelo do celular e o instrumento.
 - **Tem uma ideia?** Abra uma [Sugestão](../../issues/new/choose).
 - **Dúvidas:** escreva para **support@goklahlabs.com.br**, ou use o "Fale conosco" nas Preferências do app.
+- **Achou uma falha de segurança?** Não abra issue pública: escreva para **support@goklahlabs.com.br**. Veja o [SECURITY.md](SECURITY.md).
 
 ---
 
@@ -81,12 +82,25 @@ O app pede o microfone só para ouvir o instrumento. O som é analisado na hora,
 
 ## English
 
+![Nogueira Tuner](imagens/en/destaque.png)
+
 **Play a string and Afinador Nogueira tells you whether to tighten or loosen it.**
 
 - **String by string** for guitar, the Brazilian viola caipira, cavaquinho, ukulele, mandolin, banjo, violin and viola, with the most used tunings for each. The tuner recognizes which string you played on its own.
 - **Chromatic** mode for any instrument with a steady pitch, with transposition for B♭, E♭ and F instruments.
 - Light or dark theme, note names in letters or in Do Re Mi, noise filter, adjustable accuracy and reference pitch.
 - Free, no ads, no sign-up and no internet. The sound is analyzed on the phone and never recorded or sent. The app follows your phone's language (Portuguese or English).
+
+<p align="center">
+  <img src="imagens/en/1-cordas.png" width="32%" alt="String by string: the A string a little flat, with Tighten">
+  <img src="imagens/en/2-afinado.png" width="32%" alt="The same string in tune, in green">
+  <img src="imagens/en/3-instrumentos.png" width="32%" alt="Instruments and tunings">
+</p>
+<p align="center">
+  <img src="imagens/en/4-viola.png" width="32%" alt="Viola caipira tunings">
+  <img src="imagens/en/5-cromatico.png" width="32%" alt="Chromatic mode">
+  <img src="imagens/en/6-preferencias.png" width="32%" alt="Preferences">
+</p>
 
 Coming soon to Google Play · [App page](https://goklahlabs.com.br/nogueira) · Problems and ideas: [issues](../../issues/new/choose) · Questions: support@goklahlabs.com.br
 
